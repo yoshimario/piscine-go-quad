@@ -21,3 +21,5 @@
 # Go workspace file
 go.work
 
+# Removes .DS_Store from syncing
+**/.DS_Store
