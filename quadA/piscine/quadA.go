@@ -1,5 +1,7 @@
 package piscine
 
-func QuadA(x,y int) {
+import "github.com/01-edu/z01"
+
+func QuadA(x, y int) {
 
 }
