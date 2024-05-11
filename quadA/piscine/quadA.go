@@ -17,7 +17,7 @@ func QuadA(x, y int) {
 			} else {
 				z01.PrintRune(' ')
 			}
-			z01.PrintRune('\n')
 		}
+		z01.PrintRune('\n')
 	}
 }
