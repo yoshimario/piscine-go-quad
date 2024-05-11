@@ -7,10 +7,14 @@ func QuadE(x, y int) {
 
 		for row := 1; row <= y; row++ {
 			for col := 1; col <= x; col++ {
-				if (row == 1 && col == 1) || (row == y && col == x) {
+				if row == 1 && col == 1 {
 					z01.PrintRune('A')
-				} else if (row == 1 && col == x) || (row == y && col == 1) {
+				} else if row == 1 && col == x {
 					z01.PrintRune('C')
+				} else if row == y && col == 1 {
+					z01.PrintRune('C')
+				} else if row == y && col == x {
+					z01.PrintRune('A')
 				} else if (row == 1 || row == y) && (col > 1 && col < x) {
 					z01.PrintRune('B')
 				} else if (col == 1 || col == x) && (row > 1 && row < y) {
