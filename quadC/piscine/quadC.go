@@ -9,9 +9,9 @@ func QuadC(x, y int) {
 			for col := 1; col <= x; col++ {
 				if row == 1 && col == 1 {
 					z01.PrintRune('A')
-				} else if (row == 1 && col == x) || (row == y && col == 1) {
-					z01.PrintRune('C')
-				} else if row == y && col == x {
+				} else if row == 1 && col == x {
+					z01.PrintRune('A')
+				} else if row == y && col == x || (row == y && col == 1) {
 					z01.PrintRune('C')
 				} else if (row == 1 || row == y) && (col > 1 && col < x) {
 					z01.PrintRune('B')
