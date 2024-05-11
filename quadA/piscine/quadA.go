@@ -3,7 +3,7 @@ package piscine
 import "github.com/01-edu/z01"
 
 func QuadA(x, y int) {
-	if x < 0 || y < 0 {
+	if x <= 0 || y <= 0 {
 		return // if number is negative, it will exit and not execute
 	}
 	for row := 1; row <= y; row++ {
