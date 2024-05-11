@@ -1,6 +1,6 @@
 package main
 
-import "piscine"
+import "piscine/quadB/piscine"
 
 func main() {
 	piscine.QuadB(5, 3)
